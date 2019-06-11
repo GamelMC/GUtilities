@@ -1,0 +1,19 @@
+name: GUtilities
+version: 1.0
+main: de.gamelmc.gutilities.main.Main
+author: GamelMC Development Team
+authors:
+  - Karatek_HD
+commands:
+  kick:
+    description: Einen Spieler vom Server werfen.
+  kopf:
+    description: Gibt dir den Kopf eines Spielers.
+  chatclear:
+    description: Leert den Chat.
+  cc:
+    description: Leert den Chat.
+  gversion:
+    description: Gibt Versionsinformationen aus.
+  tc:
+    description: Ändert deinen Status im TeamChat.
