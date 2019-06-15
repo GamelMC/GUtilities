@@ -20,7 +20,7 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.bukkit.metadata.FixedMetadataValue;
 
-public class Command_TeamChat implements CommandExecutor {
+public class Command_Spy implements CommandExecutor {
 
 
     @Override
@@ -30,16 +30,16 @@ public class Command_TeamChat implements CommandExecutor {
             return false;
         } else {
             Player p = (Player) sender;
-            if(!p.hasPermission("gamelmc.teamchat")) {
+            if(!p.hasPermission("gamelmc.cmdspy")) {
                 p.sendMessage("§cDazu hast du keine Rechte!");
                 return false;
             } else {
-                if(p.hasMetadata("tclogin")) {
-                    p.sendMessage(Main.prefix + "Status im Teamchat: §causgeloggt");
-                    p.removeMetadata("tclogin", Main.getInstance());
+                if(p.hasMetadata("spyer")) {
+                    p.sendMessage(Main.prefix + "Commandspy: §causgeschaltet");
+                    p.removeMetadata("spyer", Main.getInstance());
                 } else {
-                    p.sendMessage(Main.prefix + "Status im Teamchat: §aeingeloggt");
-                    p.setMetadata("tclogin", new FixedMetadataValue(Main.getInstance(), 0));
+                    p.sendMessage(Main.prefix + "Commandspy: §aeingeschaltet");
+                    p.setMetadata("spyer", new FixedMetadataValue(Main.getInstance(), 0));
 
                 }
 

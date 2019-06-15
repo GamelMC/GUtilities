@@ -7,6 +7,8 @@ authors:
 commands:
   kick:
     description: Einen Spieler vom Server werfen.
+  kkick:
+    description: Einen Spieler vom Server werfen.
   kopf:
     description: Gibt dir den Kopf eines Spielers.
   chatclear:
@@ -17,3 +19,5 @@ commands:
     description: Gibt Versionsinformationen aus.
   tc:
     description: Ändert deinen Status im TeamChat.
+  spy:
+    description: Lässt dich die Befehle von Spielern sehen.

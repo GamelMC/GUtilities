@@ -13,30 +13,27 @@ package com.karatek.gutilities.listener;
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
+import de.gamelmc.gutilities.main.Main;
+import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
-import org.bukkit.event.player.AsyncPlayerChatEvent;
+import org.bukkit.event.player.PlayerCommandPreprocessEvent;
 
-public class PrefixListener implements Listener {
+public class CommandListener implements Listener {
 
     @EventHandler
-
-    public void onChat(AsyncPlayerChatEvent e) {
-        //get player
+    public void onCommand(PlayerCommandPreprocessEvent e) {
         Player p = e.getPlayer();
-        //get message
-
-        String msg = e.getMessage();
-        //check permission for adminchat
-        if(p.hasMetadata("tclogin")) return;
-        if(!p.hasPermission("gamelmc.adminchat")) {
-            e.setFormat(p.getDisplayName() + " §r: " + msg);
-        }
-        if(p.hasPermission("gamelmc.adminchat")) {
-            e.setFormat("§8»\n§r" + p.getDisplayName() + " §r: §a§l" + msg + "\n§8»");
+        for(Player all : Bukkit.getOnlinePlayers()) {
+            if(all.hasMetadata("spyer")) {
+                if(all.getUniqueId() == p.getUniqueId()) return;
+                if(p.hasMetadata("cmdspybypass")) return;
+                all.sendMessage(Main.prefix + "§rDer Spieler " + p.getDisplayName() + " §rhat einen Command ausgeführt: §a" + e.getMessage());
+            }
         }
         ScoreboardManager.getManager().setBoard(p);
-
     }
+
+
 }

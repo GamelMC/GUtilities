@@ -1,7 +1,7 @@
 <component name="ArtifactManager">
-  <artifact type="jar" name="TestServer4">
-    <output-path>$PROJECT_DIR$/../../servers/spigot4/plugins</output-path>
-    <root id="archive" name="TestServer4.jar">
+  <artifact type="jar" name="GUtils">
+    <output-path>$PROJECT_DIR$/../../servers/paper3/plugins</output-path>
+    <root id="archive" name="GUtils.jar">
       <element id="module-output" name="GUtilities" />
       <element id="file-copy" path="$PROJECT_DIR$/src/de/gamelmc/gutilities/reources/plugin.yml" />
     </root>
