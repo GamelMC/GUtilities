@@ -59,7 +59,7 @@ public class PlusListener implements Listener {
                 }
             }
             if(msg.equalsIgnoreCase("++test")) {
-                p.sendMessage(Main.devprefix + "Alles in Ordnung!");
+                p.sendMessage(Main.devprefix + "Der Entwicklermodus ist aktiviert!");
                 return;
             }
             if(msg.equalsIgnoreCase("++devlocker")) {

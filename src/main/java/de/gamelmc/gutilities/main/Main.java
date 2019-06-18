@@ -25,7 +25,6 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 public class Main extends JavaPlugin {
 
-
     public static String prefix = "§r[§6§lGamelMC§r] ";
     public static String devprefix = "§r[§b§lGamelMC§r] ";
     public static String pre = prefix;
@@ -42,6 +41,7 @@ public class Main extends JavaPlugin {
 
     @Override
     public void onEnable() {
+
         for(Player all : Bukkit.getOnlinePlayers()) {
             if(all.hasMetadata("reloadmsg")) {
                 all.sendMessage(Main.devprefix + "Das §aGUtilties§r Plugn wurde neu geladen. Die geladene Version ist §a" + version + "§r.");
