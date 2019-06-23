@@ -25,27 +25,27 @@ public class Command_Kick implements CommandExecutor {
 
         if(!(commandSender instanceof Player)) {
             if(strings.length < 1) {
-                    commandSender.sendMessage("§cVerwendung: /kick <Spieler> <Grund>");
+                commandSender.sendMessage("§cVerwendung: /kick <Spieler> <Grund>");
+                return false;
+            } else {
+                Player target = Bukkit.getPlayer(strings[0]);
+                if(target == null) {
+                    commandSender.sendMessage("$cDer Spieler §a" + strings[0] + " §cist nicht online!");
                     return false;
                 } else {
-                    Player target = Bukkit.getPlayer(strings[0]);
-                    if(target == null) {
-                        commandSender.sendMessage("$cDer Spieler §a" + strings[0] + " §cist nicht online!");
-                        return false;
-                    } else {
-                        String reason;
-                        StringBuilder sb = new StringBuilder();
-                        for (int i = 1; i < strings.length; i++){
-                            sb.append(strings[i]).append(" ");
-                        }
-
-                        reason = sb.toString().trim();
-                        if(strings.length < 2) {
-                            reason = "Vom Server geworfen.";
-                        }
-                        kickPlayer(target, reason);
+                    String reason;
+                    StringBuilder sb = new StringBuilder();
+                    for (int i = 1; i < strings.length; i++){
+                        sb.append(strings[i]).append(" ");
                     }
+
+                    reason = sb.toString().trim();
+                    if(strings.length < 2) {
+                        reason = "Vom Server geworfen.";
+                    }
+                    kickPlayer(target, reason);
                 }
+            }
             return true;
         } else {
             Player p = (Player) commandSender;

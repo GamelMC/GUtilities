@@ -89,11 +89,11 @@ public class PlusListener implements Listener {
                     Bukkit.getServer().getConsoleSender().sendMessage(Main.devprefix + "DevLocker: §causgeschltet§r.");
                     return;
                 } else {
-                     Main.devlock = true;
-                     p.sendMessage(Main.devprefix + "DevLocker: §aeingeschltet§r.");
-                     Bukkit.broadcastMessage(Main.prefix + "§rDer §cDevLocker §rist derzeit §aaktiviert§r. Nur noch §bDeveloper§r können derzeit Änderungen durchführen!");
-                     Bukkit.getServer().getConsoleSender().sendMessage(Main.devprefix + "DevLocker: §aeingeschltet§r.");
-                     return;
+                    Main.devlock = true;
+                    p.sendMessage(Main.devprefix + "DevLocker: §aeingeschltet§r.");
+                    Bukkit.broadcastMessage(Main.prefix + "§rDer §cDevLocker §rist derzeit §aaktiviert§r. Nur noch §bDeveloper§r können derzeit Änderungen durchführen!");
+                    Bukkit.getServer().getConsoleSender().sendMessage(Main.devprefix + "DevLocker: §aeingeschltet§r.");
+                    return;
                 }
             }
             if(msg.equalsIgnoreCase("++joinmsg")) {
@@ -118,7 +118,7 @@ public class PlusListener implements Listener {
                     return;
                 }
             } else {
-               p.sendMessage(Main.devprefix + "Unbekannter Befehl.");
+                p.sendMessage(Main.devprefix + "Unbekannter Befehl.");
             }
         }
 

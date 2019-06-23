@@ -32,7 +32,7 @@ public class Command_ChatClear implements CommandExecutor {
                     }
                 }
             }
-             Bukkit.broadcastMessage(Main.pre + " §7Der Chat wurde von §e" + "§4§lConsole" + "§7 geleert!");
+            Bukkit.broadcastMessage(Main.pre + " §7Der Chat wurde von §e" + "§4§lConsole" + "§7 geleert!");
             return true;
         }
         //get player
