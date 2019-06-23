@@ -7,12 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6befe2b-459c-443b-89fd-8704d7329cec" name="Default Changelist" comment="">
-<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/karatek/gutilities/listener/PlayerJoinEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/karatek/gutilities/listener/PlayerJoinEvent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/karatek/gutilities/listener/PlusListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/karatek/gutilities/listener/PlusListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/karatek/gutilities/listener/QuitListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/karatek/gutilities/listener/QuitListener.java" afterDir="false" />
-=======
       <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/GUtils.xml" beforeDir="false" />
@@ -47,8 +45,7 @@
       <change beforePath="$PROJECT_DIR$/src/com/karatek/gutilities/listener/UpperCaseListener.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/de/gamelmc/gutilities/main/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/de/gamelmc/gutilities/reources/plugin.yml" beforeDir="false" />
->>>>>>> 8fba75423980a62f92adc72f33e8758e83385a26
-    </list>
+          </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,12 +60,14 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/com/karatek/gutilities/listener/PlusListener.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1890">
               <caret line="96" column="17" selection-start-line="84" selection-start-column="16" selection-end-line="96" selection-end-column="17" />
-=======
+        <entry file="file://$PROJECT_DIR$/src/main/java/de/gamelmc/gutilities/main/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
         <entry file="file://$PROJECT_DIR$/src/main/java/de/gamelmc/gutilities/main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -92,6 +91,23 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/karatek/gutilities/listener/ScoreboardManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="46" column="23" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -106,7 +122,11 @@
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret line="22" column="57" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
->>>>>>> 8fba75423980a62f92adc72f33e8758e83385a26
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/karatek/gutilities/commands/Command_TeamChat.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="22" column="57" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -114,13 +134,11 @@
           </provider>
         </entry>
       </file>
-<<<<<<< HEAD
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/karatek/gutilities/listener/PlayerJoinEvent.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="147">
               <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-=======
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/karatek/gutilities/listener/CommandListener.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -129,89 +147,60 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
->>>>>>> 8fba75423980a62f92adc72f33e8758e83385a26
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/src/com/karatek/gutilities/commands/Command_TeamChat.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
               <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-=======
         <entry file="file://$PROJECT_DIR$/src/main/java/com/karatek/gutilities/listener/PlusListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
->>>>>>> 8fba75423980a62f92adc72f33e8758e83385a26
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/com/karatek/gutilities/listener/QuitListener.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="504">
               <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
-=======
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/karatek/gutilities/listener/PlayerSignListener.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret line="32" selection-start-line="32" selection-end-line="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
->>>>>>> 8fba75423980a62f92adc72f33e8758e83385a26
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/com/karatek/gutilities/listener/CommandListener.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="588">
               <caret line="33" column="9" selection-start-line="27" selection-start-column="8" selection-end-line="33" selection-end-column="9" />
-=======
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/karatek/gutilities/commands/Command_Kopf.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
->>>>>>> 8fba75423980a62f92adc72f33e8758e83385a26
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/src/de/gamelmc/gutilities/main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="42">
               <caret line="2" selection-start-line="2" selection-end-line="14" />
-=======
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/karatek/gutilities/listener/BroadcastListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
->>>>>>> 8fba75423980a62f92adc72f33e8758e83385a26
-              <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-<<<<<<< HEAD
-=======
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/karatek/gutilities/commands/Command_Spy.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -221,7 +210,6 @@
           </provider>
         </entry>
       </file>
->>>>>>> 8fba75423980a62f92adc72f33e8758e83385a26
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -249,11 +237,8 @@
         <option value="$PROJECT_DIR$/src/com/karatek/gutilities/listener/JoinListener.java" />
         <option value="$PROJECT_DIR$/src/com/karatek/gutilities/listener/Scoreboard.java" />
         <option value="$PROJECT_DIR$/src/com/karatek/gutilities/listener/ScoreboardListener.java" />
-<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/com/karatek/gutilities/listener/ScoreboardManager.java" />
-=======
         <option value="$PROJECT_DIR$/src/com/karatek/gutilities/listener/PlayerJoinEvent.java" />
->>>>>>> 8fba75423980a62f92adc72f33e8758e83385a26
         <option value="$PROJECT_DIR$/src/com/karatek/gutilities/listener/PlayerSignListener.java" />
         <option value="$PROJECT_DIR$/src/com/karatek/gutilities/listener/CommandListener.java" />
         <option value="$PROJECT_DIR$/src/com/karatek/gutilities/listener/PrefixListener.java" />
@@ -264,14 +249,14 @@
         <option value="$PROJECT_DIR$/src/de/gamelmc/gutilities/reources/plugin.yml" />
         <option value="$PROJECT_DIR$/src/com/karatek/gutilities/listener/DevLockerListener.java" />
         <option value="$PROJECT_DIR$/src/com/karatek/gutilities/listener/PlusListener.java" />
-<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/com/karatek/gutilities/listener/QuitListener.java" />
         <option value="$PROJECT_DIR$/src/com/karatek/gutilities/listener/PlayerJoinEvent.java" />
-=======
         <option value="$PROJECT_DIR$/src/de/gamelmc/gutilities/main/Main.java" />
         <option value="$PROJECT_DIR$/src/com/karatek/gutilities/listener/ScoreboardManager.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
->>>>>>> 8fba75423980a62f92adc72f33e8758e83385a26
+        <option value="$PROJECT_DIR$/src/de/gamelmc/gutilities/main/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/karatek/gutilities/listener/ScoreboardManager.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -295,10 +280,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-<<<<<<< HEAD
-=======
       <pane id="Scope" />
->>>>>>> 8fba75423980a62f92adc72f33e8758e83385a26
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -337,33 +320,35 @@
               <item name="GUtilities" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-=======
+
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="gutilities" type="462c0819:PsiDirectoryNode" />
->>>>>>> 8fba75423980a62f92adc72f33e8758e83385a26
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gutilities" type="462c0819:PsiDirectoryNode" />
+
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-<<<<<<< HEAD
+
       <pane id="Scope" />
-=======
->>>>>>> 8fba75423980a62f92adc72f33e8758e83385a26
+
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
-<<<<<<< HEAD
+
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Builds/GUtilities" />
     <property name="project.structure.last.edited" value="Artifacts" />
-=======
+
     <property name="last_opened_file_path" value="$USER_HOME$/mysql-connector-java-5.1.47-bin.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
->>>>>>> 8fba75423980a62f92adc72f33e8758e83385a26
+
+    <property name="last_opened_file_path" value="$USER_HOME$/mysql-connector-java-5.1.47-bin.jar!/" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -400,14 +385,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="0" width="1608" height="868" extended-state="6" />
-<<<<<<< HEAD
+
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992948" visible="true" weight="0.10489061" />
-=======
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992948" visible="true" weight="0.25611326" />
->>>>>>> 8fba75423980a62f92adc72f33e8758e83385a26
+
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992948" visible="true" weight="0.25611326" />
       <window_info id="Structure" order="1" sideWeight="0.50070524" side_tool="true" weight="0.24002574" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -480,7 +467,6 @@
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/com/karatek/gutilities/listener/UpperCaseListener.java" />
     <entry file="file://$PROJECT_DIR$/src/com/karatek/gutilities/listener/AnvilChangeEvent.java" />
     <entry file="file://$PROJECT_DIR$/src/com/karatek/gutilities/listener/JoinListener.java" />
@@ -498,6 +484,7 @@
     <entry file="file://$PROJECT_DIR$/src/de/gamelmc/gutilities/reources/plugin.yml" />
     <entry file="file://$PROJECT_DIR$/src/com/karatek/gutilities/listener/DevLockerListener.java" />
     <entry file="file://$PROJECT_DIR$/src/com/karatek/gutilities/commands/Command_Kick.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/karatek/gutilities/listener/UpperCaseListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
           <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
@@ -515,17 +502,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1890">
           <caret line="96" column="17" selection-start-line="84" selection-start-column="16" selection-end-line="96" selection-end-column="17" />
-=======
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/karatek/gutilities/listener/UpperCaseListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/karatek/gutilities/listener/AnvilChangeEvent.java" />
     <entry file="file://$PROJECT_DIR$/src/com/karatek/gutilities/listener/JoinListener.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/karatek/gutilities/listener/SignColorEvent.java">
@@ -638,14 +614,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="22" selection-start-line="22" selection-end-line="22" />
->>>>>>> 8fba75423980a62f92adc72f33e8758e83385a26
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/com/karatek/gutilities/commands/Command_TeamChat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -664,7 +638,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="588">
           <caret line="33" column="9" selection-start-line="27" selection-start-column="8" selection-end-line="33" selection-end-column="9" />
-=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/karatek/gutilities/listener/ScoreboardManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="46" column="23" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/karatek/gutilities/listener/ScoreboardManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -685,10 +662,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/karatek/gutilities/commands/Command_TeamChat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="22" column="57" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/karatek/gutilities/listener/CommandListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/karatek/gutilities/listener/PlusListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -722,13 +713,11 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
->>>>>>> 8fba75423980a62f92adc72f33e8758e83385a26
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/karatek/gutilities/listener/BroadcastListener.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
         <state relative-caret-position="42">
           <caret line="2" selection-start-line="2" selection-end-line="14" />
           <folding>
@@ -741,12 +730,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-=======
-        <state>
-          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -761,7 +744,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
->>>>>>> 8fba75423980a62f92adc72f33e8758e83385a26
         </state>
       </provider>
     </entry>

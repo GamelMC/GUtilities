@@ -12,11 +12,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="PermissionsEx-1.23.4" level="project" />
-<<<<<<< HEAD
     <orderEntry type="library" name="spigot-1.8.8" level="project" />
-=======
-    <orderEntry type="library" name="Vault" level="project" />
-    <orderEntry type="library" name="mysql-connector-java-5.1.47-bin" level="project" />
->>>>>>> 8fba75423980a62f92adc72f33e8758e83385a26
   </component>
 </module>
