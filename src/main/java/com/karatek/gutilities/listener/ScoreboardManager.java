@@ -37,7 +37,7 @@ public class ScoreboardManager implements Listener {
         // Einstellungen des Scoreboards
         o.setDisplayName("§6§lGamelMC§r.§6§lde");
         o.setDisplaySlot(DisplaySlot.SIDEBAR);
-        // Scores für das Scoreboard
+        //Scores für das Scoreboard
         //Score Rang = o.getScore("> §3§lRang:");
         //if(PermissionsEx.getUser(p).inGroup("Admin")) {
         //    Score getRang = o.getScore("§cAdmin");

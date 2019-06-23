@@ -14,6 +14,7 @@ package com.karatek.gutilities.listener;
  */
 
 import de.gamelmc.gutilities.main.Main;
+import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -39,8 +40,46 @@ public class PlayerJoinEvent implements Listener {
             boolean devmode = p.hasMetadata("devmode");
             if(devmode) {
                 p.sendMessage(Main.devprefix + "Entwicklungsmodus: §aaktiviert.");
+                //Send messgeas about the dev modules
+                if(p.hasMetadata("joinmsg")) {
+                    p.sendMessage(Main.devprefix + "Join Debugger: §aaktiviert..");
+                } else {
+                    p.sendMessage(Main.devprefix + "Join Debugger: §cdeaktiviert..");
+                }
+
+                if(p.hasMetadata("scoremsg")) {
+                    p.sendMessage(Main.devprefix + "Scoreboard Debugger: §aaktiviert..");
+                } else {
+                    p.sendMessage(Main.devprefix + "Scoreboard Debugger: §cdeaktiviert..");
+                }
+
+                if(p.hasMetadata("reloadmsg")) {
+                    p.sendMessage(Main.devprefix + "Reload Debugger: §aaktiviert..");
+                } else {
+                    p.sendMessage(Main.devprefix + "Reload Debugger: §cdeaktiviert..");
+                }
+
+                if(p.hasMetadata("cmdspybypass")) {
+                    p.sendMessage(Main.devprefix + "CommandSpy Bypass: §aaktiviert.§r.");
+                }
+
+                if(Main.devlock) {
+                    p.sendMessage(Main.devprefix + "DevLocker: §aeingeschltet§r.");
+                } else {
+                    p.sendMessage(Main.devprefix + "DevLocker: §causgeschltet§r.");
+                }
+
+
+
+
             } else {
                 p.sendMessage(Main.devprefix + "Entwicklungsmodus: §cdeaktiviert.");
+            }
+        }
+        for(Player all : Bukkit.getOnlinePlayers()) {
+            if(all.hasMetadata("joinmsg")) {
+                if(all.getUniqueId() == p.getUniqueId()) return;
+                all.sendMessage("§7[§a+§7] " + e.getPlayer().getName());
             }
         }
 

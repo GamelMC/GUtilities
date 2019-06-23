@@ -1,5 +1,19 @@
 package com.karatek.gutilities.listener;
 
+/*
+ * GUtilities
+ * Copyright (C) 2019 GamelMC Developers
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+
 import de.gamelmc.gutilities.main.Main;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
@@ -46,6 +60,11 @@ public class PlusListener implements Listener {
                     return;
                 }
             }
+            if(msg.equalsIgnoreCase("++off")) {
+                p.kickPlayer("§4§lDer Server fährt herunter...");
+                Bukkit.getServer().getConsoleSender().sendMessage("§4§lDer Server wurde von " + p.getDisplayName() + " §4§lherunter gefahren.");
+                Bukkit.shutdown();
+            }
             if(msg.equalsIgnoreCase("++scoremsg")) {
                 if (p.hasMetadata("scoremsg")) {
                     p.sendMessage(Main.devprefix + "Scoreboard Debug Modus: §cdeativiert§r.");
@@ -59,7 +78,7 @@ public class PlusListener implements Listener {
                 }
             }
             if(msg.equalsIgnoreCase("++test")) {
-                p.sendMessage(Main.devprefix + "Alles in Ordnung!");
+                p.sendMessage(Main.devprefix + "Der Entwicklermodus ist aktiviert!");
                 return;
             }
             if(msg.equalsIgnoreCase("++devlocker")) {
@@ -77,12 +96,22 @@ public class PlusListener implements Listener {
                      return;
                 }
             }
+            if(msg.equalsIgnoreCase("++joinmsg")) {
+                if(p.hasMetadata("joinmsg")) {
+                    p.sendMessage(Main.devprefix + "Join Debugger: §cdeativiert§r.");
+                    p.removeMetadata("joinmsg", Main.getInstance());
+                    return;
+                } else {
+                    p.sendMessage(Main.devprefix + "Join Debugger: §aaktiviert§r.");
+                    p.setMetadata("joinmsg", new FixedMetadataValue(Main.getInstance(), 0));
+                    return;
+                }
+            }
             if(msg.equalsIgnoreCase("++spybps")) {
                 if(p.hasMetadata("cmdspybypass")) {
                     p.sendMessage(Main.devprefix + "CommandSpy Bypass: §cdeativiert§r.");
                     p.removeMetadata("cmdspybypass", Main.getInstance());
                     return;
-
                 } else {
                     p.sendMessage(Main.devprefix + "CommandSpy Bypass: §aaktiviert§r.");
                     p.setMetadata("cmdspybypass", new FixedMetadataValue(Main.getInstance(), 0));
@@ -99,6 +128,7 @@ public class PlusListener implements Listener {
         p.sendMessage("§7---------------------- " + Main.devprefix + "§7---------------------\n" +
                 "§7• §6++test §r-§7 Prüft, ob der DevMode aktiviert ist.\n" +
                 checkActive(p, "reloadmsg") + " §6++reloadmsg §r-§7 Schaltet Debug Informationen zum Laden von GUtilities ein oder aus.\n" +
+                checkActive(p, "joinmsg") + " §6++joinmsg §r-§7 Schaltet Debug Informationen zum Joinen von Spielern ein oder aus.\n" +
                 checkActive(p, "cmdspybypass") +" §6++spybps §r-§7 Macht dich unsichtbar gegenüber dem CommandSpy.\n" +
                 checkActive(p,"scoremsg") + " §6++scoremsg §r-§7 Schaltet Debug Informationen zum Scoreboard an oder aus.\n" +
                 devlockChecker() + " §6++devlocker §r-§7 Schaltet den DevLocker ein/aus.\n" +
