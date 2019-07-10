@@ -29,12 +29,22 @@ public class TeamChatListener implements Listener {
             if(p.hasMetadata("devmode")) {
                 if(e.getMessage().startsWith("++")) return;
             }
+            if(e.getMessage().equalsIgnoreCase("++dev")) {
+                e.setCancelled(true);
+            }
             for(Player all : Bukkit.getOnlinePlayers()) {
 
                 if(all.hasMetadata("tclogin")) {
                     all.sendMessage("§f[§4§lTEAMCHAT§r§f] " + p.getDisplayName() + " §8>> §r" + e.getMessage());
                 }
             }
+        } else {
+            if(e.getMessage().startsWith("++dev")) {
+                e.setCancelled(true);
+            } else {
+                e.setCancelled(false);
+            }
+
         }
     }
 

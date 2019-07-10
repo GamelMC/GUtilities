@@ -29,7 +29,7 @@ public class Main extends JavaPlugin {
     public static String devprefix = "§r[§b§lGamelMC§r] ";
     public static String pre = prefix;
     public static boolean unstable = true;
-    public static String version = "1.0 Beta 1";
+    public static String version = "1.0 Beta 3";
     public static boolean devlock = false;
 
 
